@@ -1,31 +1,31 @@
--- Claim status distribution
+-- 1. Claim status distribution
 SELECT claim_status, COUNT(*)
 FROM claim
 GROUP BY claim_status;
 
--- Denial percentage
+-- 2. Denial percentage
 SELECT 
     COUNT(*) * 100.0 / (SELECT COUNT(*) FROM claim) AS denial_percentage
 FROM claim
 WHERE claim_status = 'Denied';
 
--- Denial reasons count
+-- 3. Denial reasons count
 SELECT denial_reason, COUNT(*)
 FROM denial_appeal
 GROUP BY denial_reason;
 
--- Appeal filed analysis
+-- 4. Appeal filed analysis
 SELECT appeal_filed, COUNT(*)
 FROM denial_appeal
 GROUP BY appeal_filed;
 
--- Appeal level analysis
+-- 5. Appeal level analysis
 SELECT appeal_level, COUNT(*)
 FROM denial_appeal
 WHERE appeal_filed = 'Yes'
 GROUP BY appeal_level;
 
--- Combined claim and appeal analysis
+-- 6. Combined claim and appeal analysis
 SELECT 
     c.claim_no,
     c.claim_status,
@@ -35,3 +35,4 @@ SELECT
 FROM claim c
 LEFT JOIN denial_appeal d
 ON c.claim_no = d.claim_no;
+

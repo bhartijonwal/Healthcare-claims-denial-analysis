@@ -25,6 +25,12 @@ The dataset includes the following tables:
 - Excel (for data creation and CSV files)
 - SQL (joins, group by, aggregation)
 
+## Sample Business Questions Answered
+- What is the overall claim denial rate?
+- Which denial reasons contribute most to revenue loss?
+- How effective are first-level appeals?
+- Where should coding improvements be prioritized to reduce denials?
+
 ## Key Analysis Performed
 - Claim status distribution (Fully Paid, Partially Paid, Denied)
 - Denial rate calculation

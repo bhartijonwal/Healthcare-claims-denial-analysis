@@ -50,3 +50,5 @@ This analysis highlights the importance of strong coding practices and timely ap
 ## Files in Repository
 - `sql_queries.sql` – SQL queries used for analysis
 - `project_notes.md` – Detailed step-by-step project documentation
+## Sample Output Screenshot
+![Claim Status Distribution](claim_status_distribution.png)

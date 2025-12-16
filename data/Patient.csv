@@ -1,0 +1,21 @@
+Patient Age,Patient Gender ,Patient Type,Service Rendered
+57,Female,Established,In-patient
+39,Male,New,Out-patient
+29,Male,New,Out-patient
+47,Male,Established,In-patient
+61,Female,Established,In-patient
+26,Female,New,In-patient
+44,Male,Established,In-patient
+34,Male,New,Out-patient
+39,Male,New,Out-patient
+54,Female,Established,Out-patient
+73,Female,Established,In-patient
+56,Female,Established,In-patient
+33,Male,New,Out-patient
+58,Female,Established,In-patient
+28,Male,New,Out-patient
+53,Female,Established,Out-patient
+41,Male,Established,Out-patient
+83,Male,Established,In-patient
+55,Female,Established,In-patient
+48,Male,Established,Out-patient
